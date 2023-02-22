@@ -15,7 +15,7 @@
   },
   "miniprogramRoot": "dist/wx/",
   "compileType": "miniprogram",
-  "appid": "touristappid",
+  "appid": "wxcc5a0d2657c48686",
   "projectname": "wechat-miniprogram-mpvue-quickstart",
   "condition": {},
   "libVersion": "2.25.0",
