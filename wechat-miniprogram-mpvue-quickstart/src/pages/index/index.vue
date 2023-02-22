@@ -16,7 +16,7 @@ export default {
   methods: {
     initVr() {
       // 从页面参数取或根据业务设置
-      const url = this.$root.$mp.page.options.url || 'https://realsee.cn/wO2222rx'
+      const url = this.$root.$mp.page.options.url || 'https://gemdale.realsee.qingapi.cn/?pid=1462714342943399936&resid=b5kdGoDd1K&rid=&srcode=ED5Aeg0kkQUPBJecrD&snav=1&token=seller_3a094146-1a07-98a7-2f42-3a8b1fdda0ab&live=0&luid=&lrole=&day=0&back=0&share=0&tcid=0&pf=wechat&hxi=4&hxp=0&open_app_id=&wssid=&wssig=&wstsp=&wx_token=&'
 
       const options = {
         app: {
@@ -89,6 +89,7 @@ export default {
         // 获取⽤户的token，因为h5使⽤token时可能会因token超时失效，该⽅法要求返回最新的有效token
         getToken: async () => {
           // return 'abc'
+          return "customer_1366209914787086336_Bearer%20eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJtaW5pX2FwcF9pZCI6Ind4YmU1MzA2YzEyZWZhYTM1YyIsInVzZXJfaWQiOiIxMzY2MjA5OTE0Nzg3MDg2MzM2IiwieWtfb3JnX2NvZGUiOiJqZGppdHVhbmFkbWluIiwib3Blbl9pZCI6Im8zX0ZPNVpUaHFWWktMRzRBd3Nra0dVSWVnRVEiLCJ1bmlvbl9pZCI6Im9DTURVNk5sZDZENHBsM212NGs4RHhua0dibnMiLCJpYXQiOjE2NzYwMDkyNjgsImV4cCI6MTY3NjAxNjQ2OH0.6i5VQsoZquEC5YFZ7G3QTDaG39krndw2g79oH1rdyiQ"
         }
       }
 
