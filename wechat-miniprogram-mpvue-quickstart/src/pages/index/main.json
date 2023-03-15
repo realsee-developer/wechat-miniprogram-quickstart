@@ -1,5 +1,2 @@
 {
-  "usingComponents": {
-    "vr-webview": "../../static/lib/realsee/miniprogram/vrwebview/index"
-  }
 }
