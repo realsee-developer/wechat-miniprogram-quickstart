@@ -1,3 +1,4 @@
+// SPDX-License-Identifier: PolyForm-Noncommercial-1.0.0
 // see http://vuejs-templates.github.io/webpack for documentation.
 var path = require('path')
 var fileExtConfig = {
